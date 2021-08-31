@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Новостное агентство</title>
 	<link href="styles.css" rel="stylesheet">
 	<link href="media.css" rel="stylesheet">
@@ -23,15 +24,46 @@
 					<div></div>
 					<div></div>
 				</div>
+				<ul id="menu-container">
+					<li class="menu-item">
+						<a href="#">Главная</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Политика</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Общество</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Экономика</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">В мире</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Проишествия</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Спорт</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Наука</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Туризм</a>
+					</li>
+				</ul>
 				<img src="img/logo-row.png" id="logo-row">
 				<img src="img/logo.png" id="logo">
-				<div id="date">19 июня, вторник</div>
+				<div id="date">19 июня, Вт</div>
 				<div id="time">10:48</div>
 				<div id="weather">+22℃</div>
 				<form action="#" method="GET" id="search-form">
 				<input type="text" name="search" id="search" placeholder="Поиск по сайту">
 				<button id="search-button"></button>
 				</form>
+				<button id="show-search"></button>
+				<button id="hide-search"></button>
 			</div>
 		</div>
 		<nav id="menu-nav">
@@ -168,7 +200,7 @@
 					</div>
 			</main>
 			<aside id="column-right">
-				<div>
+				<div id="slider-banner">
 					<img src="img/banner-1.png">
 					<img src="img/banner-2.png">
 				</div>
