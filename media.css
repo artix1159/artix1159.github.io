@@ -1,8 +1,144 @@
-@media (max-width: 768px) {
- 	.fixed-container {
- 		max-width: 744px;
- 	}
+@media (max-width: 1030px) {
+	#menu-nav {
+		font-size: 15px;
+	}
 
+	.nav-item:after{
+		padding: 13px;
+	}
+
+	#column-center {
+		width: 400px;
+	}
+
+	#main-news {
+		width: 400px;
+	}
+
+	#main-news .news-text a {
+		font-size: 28px;
+	}
+
+	#news-block {
+		width: 400px;
+	}
+
+	.news-item-center {
+		width: 195px;
+		height: 210px;
+	}
+
+	.news-item-center img {
+		width: 195px;
+		height: 125px;
+	}
+
+	.news-item-center .news-text {
+		height: 55px;
+	}	
+
+	.news-item-center .news-time {
+		left: 65px;
+	}
+
+	.news-item-center .news-comm-count {
+		left: 120px;
+	}
+}
+
+@media (max-width: 917px) {
+	#column-center {
+		width: 360px;
+	}
+
+	#main-news {
+		width: 360px;
+	}
+
+	#main-news .news-text a {
+		font-size: 26px;
+	}
+
+	#news-block {
+		width: 360px;
+	}
+
+	.news-item-center {
+		width: 175px;
+		height: 187px;
+	}
+
+	.news-item-center img {
+		width: 175px;
+		height: 112px;
+	}
+
+	.news-item-center .news-text {
+		height: 55px;
+	}	
+
+	.news-item-center .news-time {
+		left: 65px;
+	}
+
+	.news-item-center .news-comm-count {
+		left: 120px;
+	}
+}
+
+@media (max-width: 877px) {
+	#menu-nav {
+		font-size: 14px;
+	}
+
+	.nav-item:after{
+		padding: 10px;
+	}
+
+	#column-center {
+		width: 320px;
+	}
+
+	#main-news {
+		width: 320px;
+	}
+
+	#main-news .news-text a {
+		font-size: 24px;
+	}
+
+	#news-block {
+		width: 320px;
+	}
+
+	.news-item-center {
+		width: 155px;
+		height: 187px;
+	}
+
+	.news-item-center img {
+		width: 155px;
+		height: 99.6px;
+	}
+
+	.news-item-center .news-text {
+		height: 55px;
+	}	
+
+	.news-item-center .news-time {
+		left: 65px;*/
+	}
+
+	.news-item-center .news-comm-count {
+		left: 120px;
+	}
+
+	#news-right .news-comm-count {
+		right: 100px;
+	}
+}
+
+@media (max-width: 842px) {
  	#logo-row {
  		display: none;
  	}
@@ -114,4 +250,337 @@
 	#email {
 		margin-left: 40px;
 	}
+}
+
+@media (max-width: 705px) {
+	#header-top {
+		font-size: 12px;
+	}
+
+	#column-center {
+		width: auto;
+	}
+
+	#main-news {
+		width: 500px;
+	}
+
+	#news-block {
+		width: 500px;
+	}
+
+	.news-item-center {
+		width: 240px;
+		height: 240px;
+	}
+
+	.news-item-center img {
+		width: 240px;
+		height: 164px;
+	}
+
+	.news-item-center .news-text {
+		height: 45px;
+	}
+
+	#column-right {
+		order: 1;
+		overflow-x: hidden;
+		width: 100%;
+		margin-left: 0;
+		height: 450px;
+	}
+	#slider-banner {
+		width: 530px;
+		margin: 0 auto;
+		padding: 20px;
+		padding-bottom: 0;
+		text-align: center;
+	}
+	#slider-banner img:not(:last-child){
+		margin-right: 20px;
+	}
+
+	#currency {
+		width: 500px;
+		margin: 0 auto;
+	}
+
+	#search-form {
+		display: none;
+	}
+
+	#show-search {
+		display: block;
+	}
+
+	#header-button {
+		padding-bottom: 35px;
+		font-size: 16px;
+	}
+
+	#menu-btn div{
+		transition: all 0.5s ease-out 0s;
+	}
+
+	#menu-btn div.active:nth-child(1){
+		transform: rotate(45deg) translateY(10px);
+	}
+	#menu-btn div.active:nth-child(2){
+		transform: scaleX(0);
+	}
+	#menu-btn div.active:nth-child(3){
+		transform: rotate(-45deg) translateY(-10px);
+	}
+
+	#menu-btn {
+		display: block;		
+	}
+
+	#menu-nav {
+		display: none;
+	}
+
+	footer .fixed-container {
+		position: relative;
+		height: 440px;
+	}
+
+	#footer-block-1 {
+		left: 50px;
+	}
+
+	#footer-block-2 {
+		right: 80px;
+		left: auto;
+	}
+
+	#footer-block-3 {
+		top: 241px;
+		left: 50px;
+	}
+
+	#footer-block-4 {
+		top: 241px;
+		width: 160px;
+	}
+
+	#footer-social {
+		margin-bottom: 20px;
+	}
+
+	#tel {
+		margin-left: 0;
+	}
+
+	#email {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 500px) {
+
+	#header-button {
+		padding-bottom: 55px;
+	}
+
+	#date {
+		position: absolute;
+		top: 100px;
+		left: 20px;
+	}
+
+	#time {
+		position: absolute;
+		top: 100px;
+		left: 160px;
+	}
+
+	#weather {
+		position: absolute;
+		top: 100px;
+		left: 320px;
+	}
+
+	#column-center {
+		width: auto;
+	}
+
+	#main-news {
+		width: 460px;
+	}
+
+	#news-block {
+		width: 460px;
+	}
+
+	.news-item-center {
+		width: 225px;
+		height: 225px;
+	}
+
+	.news-item-center img {
+		width: 225px;
+		height: 145px;
+	}
+
+	.news-item-center .news-text {
+		height: 45px;
+	}
+}
+
+@media (max-width: 490px) {
+	#datetime {
+		display: none;
+	}
+
+	header {
+		font-size: 12px;
+	}
+
+	footer .fixed-container {
+		position: relative;
+		height: 600px;
+	}
+
+	#date {
+		top: 100px;
+		left: 20px;
+	}
+
+	#time {
+		top: 100px;
+		left: 120px;
+	}
+
+	#weather {
+		top: 100px;
+		left: 200px;
+	}
+
+	#column-center {
+		width: auto;
+		height: 800px;
+	}
+
+	#main-news {
+		width: 294px;
+	}
+
+	#news-block {
+		width: 294px;
+	}
+
+	.news-item-center {
+		width: 142px;
+		height: 200px;
+	}
+
+	.news-item-center img {
+		width: 142px;
+		height: 92px;
+	}
+
+	.news-item-center .news-text {
+		height: 55px;
+	}
+
+	.news-item-center .news-props {
+		top: 50px;
+		font-size: 10px;
+	}
+
+	.news-item-center .news-time {
+		left: 60px;
+	}
+
+	.news-item-center .news-comm-count {
+		left: 105px;
+	}
+
+	#main-news .news-props {
+		margin: 70px 20px 20px 20px;
+	}
+
+	.news-date {
+		top: 210px;
+	}
+
+	#main-news .news-time {
+		top: 210px;
+	}
+
+	#special-news-left {
+		width: 320px;
+	}
+	#special-news-left .news-props {
+		padding-top: 50px;
+		padding-left: 20px;
+	}
+
+	#special-news-left .news-text {
+		margin: 24px;
+		width: 280px;
+	}
+
+		#special-news-left .news-text a {
+			font-size: 22px;
+			font-weight: bold;
+			color: #ffffff;
+		}
+
+		#special-news-left .news-time {
+			color: #ffffff;
+			top: 220px;
+		}	
+
+		#special-news-left .news-date {
+			top: 220px;
+		}
+
+		#currency {
+			width: 300px;
+		}
+
+	#footer-block-1 {
+		left: 20px;
+	}
+
+	#footer-block-2 {
+		right: 20px;
+	}
+	
+	#footer-block-3 {
+		left: 20px;
+		top: 251px;
+	}
+
+	#footer-block-4 {
+		top: 439px;
+		right: auto;
+		left: 20px;
+		width: auto;
+	}
+
+	#tel {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 426px) {
+	#search {
+ 		width: 239px;
+ 	}
+}
+
+@media (max-width: 376px) {
+	#search {
+ 		width: 179px;
+ 	}
+}
+
+@media (max-width: 320px) {
+	#search {
+ 		width: 120px;
+ 	}
 }
